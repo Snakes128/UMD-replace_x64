@@ -3,6 +3,7 @@ A modified version of UMD-REPLACE by CUE that supports PS2 DVDs as well. The lat
 
 # Author
 Copyright (C) 2012-2015 CUE
+
 Copyright (C) 2022 Snake128
 
 # Use
