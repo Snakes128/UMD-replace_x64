@@ -1,7 +1,7 @@
 /*----------------------------------------------------------------------------*/
 /*-- UMD-replace.c                                                          --*/
-/*-- Tiny tool to replace data files in a PSP UMD ISO                       --*/
-/*-- Copyright (C) 2012-2015 CUE   -- 2022 Snake128                                        --*/
+/*-- Tiny tool to replace data files in a PSP UMD ISO and a PS2 layer0 ISO  --*/
+/*-- Copyright (C) 2012-2015 CUE  --  2022 Snake128                         --*/
 /*--                                                                        --*/
 /*-- This program is free software: you can redistribute it and/or modify   --*/
 /*-- it under the terms of the GNU General Public License as published by   --*/
@@ -94,7 +94,7 @@ void Title(void) {
         "\n"
         "UMD-REPLACE version %s - Copyright (C) 2012-2015 CUE\n"
         "UMD-REPLACE_x64 version %s - Copyright (C) 2022 Snake128\n"
-        "Tiny tool to replace data files in a PSP UMD ISO and PS2 ISO\n"
+        "Tiny tool to replace data files in a PSP UMD ISO and PS2 layer0 ISO\n"
         "\n",
         VERSION, VERSION_x64
     );
@@ -105,11 +105,11 @@ void Usage(void) {
     EXIT(
         "Usage: UMD-REPLACE imagename filename newfile\n"
         "\n"
-        "- 'imagename' is the name of the UMD image\n"
-        "- 'filename' is the file in the UMD image with the data to be replaced\n"
+        "- 'imagename' is the name of the ISO image\n"
+        "- 'filename' is the file in the ISO image with the data to be replaced\n"
         "- 'newfile' is the file with the new data\n"
         "\n"
-        "* 'imagename' must be a valid UMD ISO image\n"
+        "* 'imagename' must be a valid UMD/PS2 ISO image\n"
         "* 'filename' can use either the slash or backslash\n"
         "* 'newfile' can be different size as 'filename'\n"
     );
