@@ -1,13 +1,13 @@
 # UMD-replace_x64
-A UMD-replace for files more than 4gb
+A modified version of UMD-REPLACE by CUE that supports PS2 DVDs as well. The latest version of UMD-REPLACE had PS2 DVD support by surprise, but the tool would only work with ISO images below 4GB in size. This version corrects that, making it compatible with PSP ISOs, PS2 DVD-5 ISOs, as well as only the layer0 of PS2 DVD-9 ISOs.
 
 # Author
 Copyright (C) 2012-2015 CUE
+Copyright (C) 2022 Snake128
 
 # Use
-UMD-REPLACE is a tool to replace data files in a PSP UMD ISO image and a PS2 ISO game.
 
-Usage: PSP/PS2-REPLACE imagename filename newfile
+Usage: UMD-REPLACE imagename filename newfile
 
 - 'imagename' is the name of the UMD image
 - 'filename' is the file in the UMD image with the data to be replaced
@@ -34,4 +34,4 @@ version 2015-03-03
 
 version 2022-05-17
 ------------------
-  - fixed to use files largen than 4GB
+  - fixed to use files larger than 4GB
