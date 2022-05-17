@@ -9,11 +9,11 @@ Copyright (C) 2022 Snake128
 
 Usage: UMD-REPLACE imagename filename newfile
 
-- 'imagename' is the name of the UMD image
-- 'filename' is the file in the UMD image with the data to be replaced
+- 'imagename' is the name of the ISO image
+- 'filename' is the file in the ISO image with the data to be replaced
 - 'newfile' is the file with the new data
 
-* 'imagename' must be a valid UMD ISO image
+* 'imagename' must be a valid UMD/PS2 ISO image
 * 'filename' can use either the slash or backslash
 * 'newfile' can be different size as 'filename'
 
